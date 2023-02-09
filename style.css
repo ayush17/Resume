@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* https://drive.google.com/file/d/1ykxi5PJ2QS-trQBw8Ep-JK_5J5pUoufk/view */
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #333;
+}
+
+.container {
+  max-width: 70rem;
+  margin: 2rem auto;
+}
+.section {
+  margin-bottom: 3.6rem;
+}
+.heading-primary {
+  font-size: 4.4rem;
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+}
+.place {
+  font-size: 1.6rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.summary ul li {
+  font-size: 1.6rem;
+  color: #555;
+  margin-bottom: 1.2rem;
+  line-height: 1.4;
+}
+.had-logo {
+  width: 2rem;
+  height: 2rem;
+}
+.info-feature {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.info-feature a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #1864ab;
+}
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 0.8rem;
+}
+
+/* SECTION sUMMARY */
+.heading-secondary {
+  font-size: 3.6rem;
+  font-weight: 400;
+  margin-bottom: 2.4rem;
+}
+.summary ul {
+  padding: 0 3.6rem;
+}
+
+/* experience section */
+.firm-row {
+  margin: 0 3.6rem 1.8rem 0;
+}
+.firm-head {
+  display: flex;
+}
+.firm-head img {
+  width: 5%;
+  height: 5%;
+  margin-right: 1vw;
+}
+.org-name {
+  font-size: 2.4rem;
+  font-weight: 500;
+  /* color: #777; */
+  margin-bottom: 0.8rem;
+}
+.role {
+  font-size: 1.8rem;
+  margin-bottom: 0.6rem;
+}
+.duration {
+  font-size: 1.4rem;
+}
+.work-detail {
+  margin-left: 2rem;
+  padding: 0 3.6rem;
+  font-size: 1.6rem;
+  color: #555;
+  line-height: 1.4;
+}
+.symbo-detail {
+  margin-left: -2rem;
+}
+p,
+li {
+  margin-bottom: 0.8rem;
+  /* line-height: 1.6; */
+}
+ol li:last-child,
+ul li:last-child {
+  margin-bottom: 0;
+}
+.techno {
+  font-weight: 600;
+  color: #444;
+}
+.accomp-li {
+  margin-left: 2rem;
+}
+.firm-img {
+  width: 5%;
+  height: 5%;
+}
+.firm-clg {
+  display: flex;
+  /* align-items: center; */
+  gap: 2rem;
+  padding: 0rem 3.6rem;
+}
+.certi-img {
+  width: 5%;
+  height: 5%;
+}
+.certi-img-one {
+  width: 3%;
+  height: 3%;
+  margin-left: 0.8rem;
+}
+.certi-row {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.2rem 3.6rem;
+}
+.certi-text {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  margin-bottom: 0;
+}
+.padding-left {
+  padding-left: 0.8rem;
+}
+.skills {
+  padding: 0rem 3.6rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  row-gap: 1.2rem;
+  /* column-gap: -2rem; */
+  /* width: 90%; */
+}
+.skills p {
+  font-size: 1.6rem;
+  /* color: #555; */
+  line-height: 1.4;
+  margin-bottom: 0;
+}
+.awards {
+  padding: 0rem 3.6rem;
+}
+
+.award-head {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  /* margin-bottom: 0.8rem; */
+}
+.award-row p,
+.award-row li {
+  margin-bottom: 0 !important;
+}
+.award-img {
+  width: 5%;
+  height: 5%;
+}
+.award-firm {
+  margin-bottom: 0;
+  font-size: 1.6rem;
+  color: #555;
+  line-height: 1.4;
+}
+.award-detail {
+  margin: 0 0 3.6rem 5.2rem;
+}
+.award-detail p,
+.award-detail li {
+  font-size: 1.6rem;
+  color: #555;
+  line-height: 1.4;
+}
+.award-detail ol {
+  margin-left: 1.6rem;
+}
+
+/* PROJECT SECTION */
+.project-section {
+  padding: 0rem 3.6rem;
+}
+.project-row {
+  margin-bottom: 1.8rem;
+}
+.project-head {
+  font-size: 2rem;
+  margin-bottom: 0.6rem;
+  font-weight: 500;
+}
+.project-logo-link {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  /* margin-bottom: 1.2rem; */
+}
+.project-logo {
+  height: 2rem;
+  width: 2rem;
+}
+.project-link {
+  font-size: 1.8em;
+  text-decoration: none;
+  color: #1864ab;
+}
+.project-detail {
+  font-size: 1.6rem;
+  color: #555;
+  line-height: 1.4;
+  margin-left: 3.6rem;
+}
+/* Recommendation Section */
+.section-recommendation {
+  padding: 0rem 3.6rem;
+  width: 60rem;
+}
+.recommendation-text {
+  font-size: 1.6rem;
+  color: #555;
+  line-height: 1.4;
+  font-style: italic;
+}
+.recommend-by {
+  font-size: 1.6rem;
+  color: #555;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: end;
+}
